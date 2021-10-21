@@ -12,20 +12,20 @@ The Microsoft Azure TTS service uses the SSML (Speech Synthesis Markup Language)
 https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup?tabs=csharp#use-phonemes-to-improve-pronunciation
 
 ## Changes so far
--ready for departure IFR
--radar handoff just gives altimeter (delete 'continue as planned')
--removed 'your transponder appears inoperative or malfunctioning'- instead says 'negative radar contact, reset transponder XXXX'
--switch to advisory on _ -> monitor advisory on _
--three hundred, five hundred, etc. -> tree hundred, fife hundred...
--cleared for touch and go -> cleared touch and go
--'oscar' pronunciation -> 'osca'
--'quebec' (kwabek) pronunciation -> 'kaybek'
--'clearance void thirty minutes' -> clearance void three zero minutes
--taxi to 'general aviation parking' -> taxi to 'signature' (isn't signature everywhere? lol)
--nine o'clock, three, five -> niner o'clock, tree, fife
--"good day" pronunciation-> gooday (nobody says it slowly in real life... considered changing it to CYA (line 145967)
--'decimal' -> point (the most glaring issue so far)
--proceed on course -> resume own navigation
+- ready for departure IFR
+- radar handoff just gives altimeter (delete 'continue as planned')
+- removed 'your transponder appears inoperative or malfunctioning'- instead says 'negative radar contact, reset transponder XXXX'
+- switch to advisory on _ -> monitor advisory on _
+- three hundred, five hundred, etc. -> tree hundred, fife hundred...
+- cleared for touch and go -> cleared touch and go
+- 'oscar' pronunciation -> 'osca'
+- 'quebec' (kwabek) pronunciation -> 'kaybek'
+- 'clearance void thirty minutes' -> clearance void three zero minutes
+- taxi to 'general aviation parking' -> taxi to 'signature' (isn't signature everywhere? lol)
+- nine o'clock, three, five -> niner o'clock, tree, fife
+- "good day" pronunciation-> gooday (nobody says it slowly in real life... considered changing it to CYA (line 145967)
+- 'decimal' -> point (the most glaring issue so far)
+- proceed on course -> resume own navigation
 
 ## Install Notes
 - install is just copy and paste into your main FS2020 Folder. There's a backup of the english locpak file automatically created in the community folder for Sim Update 6. If you're beyond version 1.20.6.0 (Sim Update 6), you will need to backup your en_us locpak first before installing (overwriting).
