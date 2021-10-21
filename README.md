@@ -26,5 +26,5 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-
 -'decimal' -> point (the most glaring issue so far)
 -proceed on course -> resume own navigation
 
-##Install Notes
+## Install Notes
 - install is just copy and paste into your main FS2020 Folder. There's a backup of the english locpak file automatically created in the community folder for Sim Update 6. If you're beyond version 1.20.6.0 (Sim Update 6), you will need to backup your en_us locpak first before installing (overwriting).
